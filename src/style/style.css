@@ -1,0 +1,127 @@
+body{
+  display: none;
+}
+@media screen and (max-width: 768px){
+  :root{
+    --startup_color: #FF7300;
+  }
+*{
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: block;
+}
+.container{
+  width: 100%;
+  max-width: 370px;
+  margin: 0 auto;
+}
+/* NAVBAR start */
+.navbar{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 10px 0;
+  gap: 10px;
+  border-bottom: 1px solid rgba(39, 39, 39, 0.178);
+}
+.inpWrap{
+  display: flex;
+  width: 400px;
+  /* background-color: red; */
+  align-items: center;
+  padding: 0 10px 0  6px;
+  border-radius: 8px;
+  border: 1px solid rgba(75, 75, 75, 0.582);
+
+}
+.inpWrap i{
+  font-size: 22px;
+  padding-left: 8px;
+}
+#srch{
+  border: none;
+  border-right:  1px solid rgba(75, 75, 75, 0.582);
+  outline: none;
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+}
+.mapBtn{
+  background-color: var(--startup_color);
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px ;
+  font-size: 18px;
+  border-radius: 100%;
+}
+/* NAVBAR end */
+
+/* USTA CARD search start */
+
+.usta{
+ margin-top: 10px;
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card{
+  background-color: rgb(248, 248, 248);
+  display: flex;
+  gap: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card img{
+  object-fit: cover;
+  width: 150px;
+  border-radius: 10px;
+}
+.cardAbout{
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 8px 8px 0 0;
+  justify-content: space-between;
+}
+.online{
+  background-color: rgb(0, 214, 0);
+  padding: 1px 15px;
+  border-radius: 10px;
+  font-size: 13px;
+}
+.funksiyalar{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.like{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+}
+.likeBtn{
+    background-color: var(--startup_color);
+  color: white;
+  border: none;
+  outline: none;
+  padding: 5px ;
+  font-size: 18px;
+  border-radius: 100%;
+}
+.likeBtn i{
+  position: relative;
+  top: 1px;
+}
+.xizmat{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* USTA CARD search end */
+
+}
