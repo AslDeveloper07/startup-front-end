@@ -82,11 +82,10 @@ body{
   border-radius: 10px;
 }
 .cardAbout{
-  /* background-color: yellow; */
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 8px 8px 0 0;
+  padding: 8px 4px 1px 0;
   justify-content: space-between;
 }
 .online{
@@ -107,13 +106,12 @@ body{
   height: fit-content;
 }
 .likeBtn{
-    background-color: var(--startup_color);
-  color: white;
+  color: var(--startup_color);
   border: none;
   outline: none;
-  padding: 5px ;
-  font-size: 18px;
+  font-size: 22px;
   border-radius: 100%;
+  background-color: transparent;
 }
 .likeBtn i{
   position: relative;
